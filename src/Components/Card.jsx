@@ -3,6 +3,8 @@ import img from "../Assets/img/next.png";
 import img2 from "../Assets/img/prev.png";
 import full from "../Assets/img/full.png";
 import plus from "../Assets/img/plus.png";
+import bulb from "../Assets/img/bulb.png";
+import speaker from "../Assets/img/speaker.png";
 
 export default function Card() {
   return (
@@ -37,21 +39,10 @@ export default function Card() {
             }}>
             <div className="items flex justify-between p-5">
               <div className="bulb">
-                <img
-                  width="25"
-                  height="25"
-                  src="https://img.icons8.com/ios/25/light.png"
-                  alt="light"
-                  style={{ color: "white" }}
-                />
+                <img src={bulb} alt="" />
               </div>
               <div className="speaker">
-                <img
-                  width="25"
-                  height="25"
-                  src="https://img.icons8.com/ios/25/speaker.png"
-                  alt="speaker"
-                />
+                <img src={speaker} alt="" />
               </div>
             </div>
             <div className="number flex justify-center text-5xl mt-28 text-white">
